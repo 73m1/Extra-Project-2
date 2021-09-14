@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background: linear-gradient(#00ffff 0%, #00ff6a 100%);
+}
+p {
+    padding-left:550px;
+    padding-right:550px;
+}
+
+.hobby-site {
+    width:675px;
+    height:750px
+}
+#article {
+    padding-left:30px;
+    padding-right:30px;
+}
+#contact {
+    background: linear-gradient(#00ff6a 0%, #00ffff 100%);
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    top: 0px;
+    z-index: 10;
+    cursor:pointer;
+    background:rgb(0, 255, 13);
+    margin-top: 0px;
+    width: 100%;
+}
+.links {
+    padding-left: 40px;
+    padding-right: 30px;
+    font: size 25px;
+    font-family: fantasy;
+    display: inline;
+  
+}
+.links:hover {
+    text-decoration: underline;
+    font-size: 35px;
+}
